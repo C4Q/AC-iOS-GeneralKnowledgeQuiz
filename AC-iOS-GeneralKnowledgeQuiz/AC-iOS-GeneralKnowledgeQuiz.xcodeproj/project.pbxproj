@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8179CD191FB4EAEA0068F191 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8179CD181FB4EAEA0068F191 /* DetailViewController.swift */; };
+		8179CD1B1FB4F9B50068F191 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8179CD1A1FB4F9B50068F191 /* SettingsViewController.swift */; };
+		8179CD1D1FB4FA780068F191 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8179CD1C1FB4FA780068F191 /* Settings.swift */; };
+		8179CD1F1FB511610068F191 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8179CD1E1FB511610068F191 /* Statistics.swift */; };
 		DE13628C1FB2488400D54C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13628B1FB2488400D54C7B /* AppDelegate.swift */; };
 		DE13628E1FB2488400D54C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13628D1FB2488400D54C7B /* ViewController.swift */; };
 		DE1362911FB2488400D54C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE13628F1FB2488400D54C7B /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8179CD181FB4EAEA0068F191 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8179CD1A1FB4F9B50068F191 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8179CD1C1FB4FA780068F191 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		8179CD1E1FB511610068F191 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 		DE1362881FB2488400D54C7B /* AC-iOS-GeneralKnowledgeQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-GeneralKnowledgeQuiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE13628B1FB2488400D54C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE13628D1FB2488400D54C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +67,10 @@
 				DE13628B1FB2488400D54C7B /* AppDelegate.swift */,
 				DE13628D1FB2488400D54C7B /* ViewController.swift */,
 				DE13628F1FB2488400D54C7B /* Main.storyboard */,
+				8179CD1E1FB511610068F191 /* Statistics.swift */,
+				8179CD1C1FB4FA780068F191 /* Settings.swift */,
+				8179CD181FB4EAEA0068F191 /* DetailViewController.swift */,
+				8179CD1A1FB4F9B50068F191 /* SettingsViewController.swift */,
 				DE1362921FB2488400D54C7B /* Assets.xcassets */,
 				DE1362941FB2488400D54C7B /* LaunchScreen.storyboard */,
 				DE1362971FB2488400D54C7B /* Info.plist */,
@@ -139,9 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8179CD1F1FB511610068F191 /* Statistics.swift in Sources */,
+				8179CD1D1FB4FA780068F191 /* Settings.swift in Sources */,
 				DE13629E1FB24A5000D54C7B /* Question.swift in Sources */,
 				DE13628E1FB2488400D54C7B /* ViewController.swift in Sources */,
 				DE13628C1FB2488400D54C7B /* AppDelegate.swift in Sources */,
+				8179CD1B1FB4F9B50068F191 /* SettingsViewController.swift in Sources */,
+				8179CD191FB4EAEA0068F191 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
